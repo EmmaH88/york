@@ -36,20 +36,36 @@
         --sub-headings: "Carter One", cursive;
       }
 
-      body {
-        background-image: url("");
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
-
       h1 {
         text-align: center;
+        font-weight: bold;
+        text-decoration: underline;
+        text-transform: capitalize;
         font-family: var(--headings);
       }
 
+      h2,
       h3 {
         text-align: center;
         font-family: var(--sub-headings);
+        font-size: 30px;
+      }
+
+      h5 {
+        text-decoration: underline;
+        font-size: 40px;
+        font-family: var(--headings);
+        text-transform: capitalize;
+      }
+
+      h6 {
+        text-decoration: underline;
+        text-transform: capitalize;
+        font-family: var(--sub-headings);
+      }
+
+      .container-top-page {
+        max-width: 700px;
       }
     </style>
     <title>My Hometown Challenge</title>
@@ -72,90 +88,82 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page">Home</a>
-            </li>
-            <li class="nav-item" href="#outdoors">
-                Great Outdoors</a
+              <a class="nav-link active" aria-current="page" href="#"
+                >The Great Outdoors</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#art"> Art & Culture</a>
+              <a class="nav-link" href="#">Art & Culture</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#evening" >Evenings in York</a>
+              <a class="nav-link" href="#">Evenings in York</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#indie" >Indie York</a>
+              <a class="nav-link">Indie York</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#family" >Family Friendly</a>
+              <a class="nav-link" href="#">Family Freindly</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#dog">Dog Friendly</a>
+              <a class="nav-link" href="#">Dog Friendly</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <h1 class="m-3 p-3">Welcome to York</h1>
-    <h3>an itialian city...just, in york</h3>
+    <h1>welcome to york</h1>
+    <h2>an italian city...</h2>
+    <h3>just in york</h3>
+    <div class="container-top-page m-2 p-3">
+      <div class="row">
+        <h5 class="m-5">things to do in york</h5>
 
-   <div id="outdoor">
-    <h2>the great outdoors</h2>
-      <p>
-        Using York as your base, get out and explore the natural beauty of the
-        surrounding area. Escape the city crowds and discover a breath-taking
-        natural world right on the doorstep of York.
-      </p>
+        <div class="col-sm-3">
+          <h6>roman baths</h6>
+          <p></p>
+          <a href="https://www.facebook.com/roman.bath.3/" target="_blank">
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/054/812/original/Roman-Bath.jpg?1668973483"
+              alt="roman bath"
+              class="img-fluid"
+            />
+          </a>
+        </div>
 
-      <h4></h4>
-</div>
+        <div class="col-sm-3">
+          <h6>jorvik viking centre</h6>
+          <a href="https://www.jorvikvikingcentre.co.uk/" target="_blank">
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/054/819/original/jorvik-vikings.png?1668978672"
+              alt="jorvik viking centre"
+              class="img-fluid"
+            />
+          </a>
+        </div>
 
-    <div id="art">
-      <h2>art & cutlture</h2>
-      <p>
-        York is the UK's first and only UNESCO Creative City of Media Arts, and
-        city is at the cutting edge of artistic innovation.
-      </p>
-      <h4></h4>
-    </div>
+        <div class="col-sm-3">
+          <h6>dalby forest</h6>
+          <a href="https://www.forestryengland.uk/dalby-forest" target="_blank">
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/054/817/original/dalby-forest.png?1668978447"
+              alt="dalby forest"
+              class="img-fluid"
+            />
+          </a>
+        </div>
 
-    <div id="evening">
-      <h2>evenings in york</h2>
-      <p>
-        York is the UK's first and only UNESCO Creative City of Media Arts, and
-        city is at the cutting edge of artistic innovation.
-      </p>
-      <h4></h4>
-    </div>
-
-    <div id="indie york">
-      <h2>indie york</h2>
-      <p>
-        York is the UK's first and only UNESCO Creative City of Media Arts, and
-        city is at the cutting edge of artistic innovation.
-      </p>
-      <h4></h4>
-    </div>
-
-    <div id="family">
-      <h2>family friendly</h2>
-      <p>
-        York is the UK's first and only UNESCO Creative City of Media Arts, and
-        city is at the cutting edge of artistic innovation.
-      </p>
-      <h4></h4>
-    </div>
-
-    <div id="dog">
-     <h2>dog friendly</h2>
-      </a>
-      <p>
-        York is the UK's first and only UNESCO Creative City of Media Arts, and
-        city is at the cutting edge of artistic innovation.
-      </p>
-      <h4></h4>
+        <div class="col-sm-3">
+          <h6>York Dungeon</h6>
+          <a href="https://www.thedungeons.com/york/" target="_blank">
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/054/814/original/york-dungeon.jpg?1668974150"
+              alt="york dungeon"
+              class="img-fluid"
+            />
+          </a>
+        </div>
+      </div>
     </div>
   </body>
 </html>
